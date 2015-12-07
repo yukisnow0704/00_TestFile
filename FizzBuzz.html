@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FizzBuzz</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var start = 1, //初めの数
+			end = 100, //終わりの変数
+			i = 1; //現在の変数
+		for (i = start; i <= end; i++) {
+			if ( i % 3 == 0) {
+				if ( i % 5 == 0) {
+					document.write("<p>FizzBuss</p>");
+				} else {
+					document.write("<p>Fizz</p>");
+				}
+			} else if ( i % 5 == 0){
+				document.write("<p>Buzz</p>");
+			} else {
+				document.writeln("<p>" + i + "</p>");
+			}
+		}
+	</script>
+</body>
+</html>
